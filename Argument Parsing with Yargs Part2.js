@@ -1,4 +1,3 @@
-const { title } = require('process');
 const yargs=require('yargs')
 
 yargs.command({
@@ -11,7 +10,7 @@ yargs.command({
             type:'string'
         },
         body:{
-            describe:'Note Title',
+            describe:'Note Body',
             demandOption:true,
             type:'string'
         }
